@@ -4,6 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Calculator", "Calculator\Calculator.vbproj", "{6C82BC12-D70D-4F19-A7AF-0587ED14D3CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB} = {B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "math", "math\math.vbproj", "{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Math.UnitTest", "Math.UnitTest\Math.UnitTest.vbproj", "{747CFED8-C256-4EBE-82C5-524CEF3A61DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB} = {B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,14 @@ Global
 		{6C82BC12-D70D-4F19-A7AF-0587ED14D3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C82BC12-D70D-4F19-A7AF-0587ED14D3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C82BC12-D70D-4F19-A7AF-0587ED14D3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B365EECD-181F-4DAF-AE2C-AFC1E6D65EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747CFED8-C256-4EBE-82C5-524CEF3A61DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747CFED8-C256-4EBE-82C5-524CEF3A61DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747CFED8-C256-4EBE-82C5-524CEF3A61DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747CFED8-C256-4EBE-82C5-524CEF3A61DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
